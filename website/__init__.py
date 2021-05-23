@@ -7,6 +7,7 @@ def create_app():
     app.config["MAX_CONTENT_LENGTH"] = (16 * 1024 * 1024)
     
     from .views import views
+    from .predict import create_model
     app.register_blueprint(views, url_prefix='/')
     
     return app

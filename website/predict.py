@@ -1,6 +1,5 @@
 import PIL
 import numpy as np
-from flask import Blueprint
 from tensorflow.keras.optimizers import Adam
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Conv2D, Flatten, Dense
