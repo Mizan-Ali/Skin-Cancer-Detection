@@ -36,11 +36,11 @@ Dataset: https://www.kaggle.com/kmader/skin-cancer-mnist-ham10000
 
 ## Model Creation <a name="model"></a>
 Built a CNN model from scratch, the key features implemented in the model are:
-* Conv2d - All the convlutional layers have the same parameters except the input channel and output channel size.
-* MaxPool2d - Downsamples the input along its spatial dimensions (height and width) by taking the maximum value over an input window (of size defined by pool_size) for each channel of the input.
-* BatchNormalization - Used it to nullify the affect of an undesirable output from any specific layer by normalizing the values coming from the previous layer/
-* Dropout - It is used for a better generalization of a model as it turns off a percentage of neurons randomly during training, which results in a more generalized model.
-* Flatten - Used to turn the multi-dimensional output from the convolutional and max-pooling layers into a one dimentional tensor, to perform predictions.
+* **Conv2d** - All the convlutional layers have the same parameters except the input channel and output channel size.
+* **MaxPool2d** - Downsamples the input along its spatial dimensions (height and width) by taking the maximum value over an input window (of size defined by pool_size) for each channel of the input.
+* **BatchNormalization** - Used it to nullify the affect of an undesirable output from any specific layer by normalizing the values coming from the previous layer/
+* **Dropout** - It is used for a better generalization of a model as it turns off a percentage of neurons randomly during training, which results in a more generalized model.
+* **Flatten** - Used to turn the multi-dimensional output from the convolutional and max-pooling layers into a one dimentional tensor, to perform predictions.
 
 
 
