@@ -31,14 +31,24 @@ One thing to note is that no software is 100% accurate so if you are suspicious 
 
 ## Website <a name="website"></a>
 
+flask api - backend
+html + css + bootstrap
+
+
+
 > 
 
 
 ## Deployment <a name="deploy"></a>
 
+Docker image
+deployed as container on heroku
+
+
 > 
 
 
 ## References <a name="refernces"></a>
-
-
+Docker doc
+tf docs
+flask doc
