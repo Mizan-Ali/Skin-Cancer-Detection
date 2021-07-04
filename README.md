@@ -51,7 +51,7 @@ After the website was created, we added the Dockerfile file to our directory for
 
 ## Deployment <a name="deploy"></a>
 
-* [Deployed as a container on Heroku]
+For the deployment of our project, we chose Heroku for its free tier option and easy-to-understand procedure. Since we already had created the docker image of our project, we just needed to add one more file called heroku.yml which will tell our Heroku server which Dockerfile to build (Though we only have one Docker container here, this feature is useful when we have multiple Docker container and a docker-compose.yml) and now our project has all the files needed to be deployed on Heroku. Before pushing our website on Heroku, for it to be deployed as a container we first have to set the stack of our Heroku app to container mode. After that's done, all we need to do is push our application on Heroku and release it.
 
 
 
@@ -60,5 +60,5 @@ After the website was created, we added the Dockerfile file to our directory for
 * https://docs.docker.com/language/python/
 * https://flask.palletsprojects.com/en/2.0.x/
 * https://www.tensorflow.org/api_docs/python/tf/all_symbols
-* https://getbootstrap.com/docs/5.0/getting-started/introduction/
+* https://devcenter.heroku.com/categories/python-support
 
